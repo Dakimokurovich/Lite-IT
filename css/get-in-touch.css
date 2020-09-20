@@ -1,0 +1,112 @@
+.get-in-touch .container {
+    height: 442px;
+    background: #495b69;
+    display: flex;
+    justify-content: center;
+}
+
+.get-in-touch .content {
+    width: 550px;
+}
+
+.get-in-touch .content h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    line-height: 4;
+}
+
+.get-in-touch .content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.get-in-touch .content form .name , .mail{
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.get-in-touch .content form .name::after , .mail::after{
+    content: '\f508';
+    position: absolute;
+    color: #008fd5;
+    top: 30%;
+    right: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.get-in-touch .content form .mail::after {
+    content: '\f0e0';
+    top: 34%;
+}
+
+.get-in-touch .content form input {
+    height: 45px;
+    padding-left: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    outline: none;
+    color: #000;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+}
+
+::-moz-input-placeholder {
+    color: black;
+}
+
+.get-in-touch .content form textarea {
+    resize: none;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.7);
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 95px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    border:  1px solid #707e89;
+    outline: none;
+    width: 119px;
+    height: 45px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-size: 11px;
+    color: white;
+    background: #64737f;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    box-shadow: inset 0px 0px 10px 5px rgba(255,255,255,0.1);
+}
+
+.btn button:last-child {
+    padding-right: 20px;
+}
+
+.btn button:last-child::before {
+    position: absolute;
+    right: 30px;
+    top: 14px;
+    content: '\f057';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    font-size: 15px;
+    z-index: 100;
+}

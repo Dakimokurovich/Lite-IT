@@ -1,0 +1,123 @@
+@media (max-width: 1260px) {
+
+    .details .container {
+        height: auto;
+    }
+
+    .details .check-detalis-content {
+        flex-direction: column;
+    }
+
+    .details .check-details h2{
+        padding-bottom: 15px;
+    }
+
+    .information-plates {
+        grid-template-columns: repeat(2, 275px);
+        /* grid-template-rows: auto auto auto; */
+    }
+
+    .information-plates h4 {
+        justify-self: center;
+    }
+
+    .recent-posts {
+        grid-column: 1 / -1;
+        justify-content: center;
+    }
+
+    .recent-posts-content {
+        grid-template-columns: 205px 370px;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 915px) {
+    .details .check-details {
+        height: 220px;
+    }
+
+    .details .check-details h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 610px) {
+
+    .information-plates {
+        grid-template-columns: 275px;
+    }
+
+    .information-plates h4 {
+        font-size: 30px;
+    }
+
+    .recent-posts-content {
+        grid-template-columns: 350px;
+        grid-template-rows: auto auto auto;
+        grid-gap: 25px;    
+    }
+
+    .recent-posts-content .data-post{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+     }
+
+     .recent-posts-content .data-post .data {
+        order: 1;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+     }
+
+     .recent-posts-content .data-post .photo {
+         justify-content: center;
+         display: flex;
+     }
+
+     .recent-posts-content .data-post .data img {
+         width: 20px;
+         margin-left:5px;
+     }
+
+     .recent-posts-content .data-post .data .number {
+         font-size: 14px;
+     }
+
+     .recent-posts-content .data-post .data .month {
+        line-height: 2;
+     }
+
+     .recent-posts-content .read-more p {
+         padding-bottom: 10px;
+         border-bottom: 1px solid #e5e8ea;
+     }
+}
+
+@media (max-width: 360px) {
+
+    .details .check-details h2 {
+        font-size: 25px;
+    }
+
+    .recent-posts-content {
+        grid-template-columns: 320px;
+    }
+
+    .recent-posts-content nav ul {
+        font-size: 9px;
+        justify-content: center;
+    }
+
+    .recent-posts-content .read-more h5 {
+        font-size: 19px;
+        padding-left: 12px;
+    }
+
+    .recent-posts-content .read-more p {
+        padding-left: 12px;
+    }
+}

@@ -1,0 +1,81 @@
+.our-team .container {
+    height: 569px;
+    background: #353f4b;
+    display: flex;
+    justify-content: center;
+}
+
+.our-team .content {
+    width: 1135px;
+}
+
+.our-team .content h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    line-height: 4;
+}
+
+.our-team .team ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-team .team ul li img{
+    border: 5px solid #3f4954;
+    box-shadow: 0px 0px 0px 1px #2d3640;
+}
+
+.our-team .team ul li h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.our-team .team ul li span {
+    color: #2691ac;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.our-team .team ul li p {
+    font-size: 13px;
+    color: #b9c3ca;
+    width: 234px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.our-team .team ul li .contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    position: relative;
+}
+
+.our-team .team ul li .contact::before {
+    position: absolute;
+    content: '';
+    top: -23px;
+    width: 70px;
+    height: 1px;
+    background: #646b75;
+}
+
+.our-team .team ul li .contact ul{
+    display: flex;
+    justify-content: space-around;
+    width: 210px;
+}
+
+.our-team .team ul li .contact ul a{
+    color: #93a6b0;
+}
+
+.our-team .team ul li .contact ul a i {
+    font-size: 16px;
+}

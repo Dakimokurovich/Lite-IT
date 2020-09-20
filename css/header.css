@@ -1,0 +1,200 @@
+header {
+    height: 74px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ---------------------- logo and call us ---------------------- */
+.head-container, .logo {
+    display: flex;
+    align-items: center;
+}
+
+.head-content, .head-navigation-content {
+    display: flex;
+    align-items: center;
+    width: 1175px;
+    justify-content: space-between;
+}
+
+.head-content .logo a {
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: #0b2b33;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.head-content .logo a img{
+    padding-right: 22px;
+}
+
+.head-content .call-us, .call-us ul, .navigation ul {
+    display: flex;
+    transition: 0.5s;
+}
+
+.head-content .call-us p {
+    font-size: 11px;
+    color: rgb(11, 43, 51);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 3px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.head-content .call-us p::after {
+    content: '|';
+    position: absolute;
+    top: 4px;
+    left: 150px;
+    color: black;
+}
+
+.head-content .call-us li {
+    margin-left: 17px;
+}
+
+.head-content .call-us i{
+    color: #93a6b0;
+    font-size: 18px;
+}
+/* xxxxxxxxxxxxxxxxxxxxxx logo and call us xxxxxxxxxxxxxxxxxxxxxx */
+
+
+
+/* ---------------------- navigation block and search ---------------------- */
+
+.head-navigation-container {
+    height: 55px;
+    background: #accdda;
+    justify-content: center;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 56px;
+}
+
+.navigation li a {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #23323a;
+    position: relative;
+    transition: 0.5s;
+}
+
+.navigation li a::after {
+    content: "\f105";
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    top: -3px;
+    right: -12px;
+    color: #9aa9b3;
+    transition: 0.5s;
+}
+
+.navigation li a:hover {
+    color: #008fd5;
+}
+.navigation li a:hover::after {
+    color: #008fd5;
+    transform: rotate(90deg);
+}
+
+.search {
+    position: relative;
+}
+
+
+.search a i {
+    color: #93a6b0;
+    transition: 0.5s;
+}
+
+.search a i:hover {
+    color: #008fd5;
+}
+
+.search-panel {
+    position: absolute;
+    display: flex;
+    top: 36px;
+    right:0;
+    transition: 0.7s;
+    opacity: 0;
+    z-index: -1;
+}
+
+.search-panel input {
+    height: 55px;
+    width: 211px;
+    padding-left: 19px;
+    border: none;
+    background: white;
+    outline: none;
+    z-index: 1;
+}
+
+.search-panel button {
+    display: flex;
+    background: #23323a;
+    border: none;
+    outline: none;
+    z-index: 1;
+}
+
+.search-panel button a {
+    padding: 20px;
+    justify-content: center;
+}
+
+.search-panel button i{
+    color:white;
+}
+
+
+.search-panel button::after{
+    content:'';
+    position: absolute;
+    top: -15px;
+    right: 15px;
+    border-style: solid;
+    border-width: 0 0 17px 20px;
+    border-color: transparent transparent #23323a transparent;
+}
+
+
+.search-panel:target {
+    opacity: 1;
+    z-index: 1000;
+}
+
+.search-panel .close {
+    position: relative;
+    display: block;
+}
+
+.search-panel .close::before {
+    content: "";
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    cursor: default;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.mobile-search {
+    display: none
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxx navigation block and search xxxxxxxxxxxxxxxxxxxxxx */

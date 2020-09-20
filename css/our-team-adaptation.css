@@ -1,0 +1,30 @@
+@media (max-width: 936px) {
+    .our-team .container {
+        height: auto;
+    }
+
+    .our-team .team {
+        display: grid;
+        grid-template-columns: 468px;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .our-team .team ul {
+        display: grid;
+        grid-template-columns: repeat(2, 234px);
+        grid-row-gap: 40px;
+    }
+}
+
+@media (max-width: 470px) {
+
+    .our-team .team {
+        grid-template-columns: auto;
+    }
+
+    .our-team .team ul {
+        grid-template-columns: 234px;
+        justify-content: center;
+    }
+}

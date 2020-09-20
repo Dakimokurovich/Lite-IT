@@ -1,0 +1,23 @@
+.twit-theme .owl-nav {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    left: 100%;
+    top: 30%;
+}
+
+.twit-theme .owl-nav [class*='owl-'] {
+    color: #fff;
+    font-size: 15px;
+    display: inline-block;
+    cursor: pointer;
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+    
+  
+  

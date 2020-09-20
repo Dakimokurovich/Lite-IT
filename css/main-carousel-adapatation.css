@@ -1,0 +1,21 @@
+@media (max-width: 735px) {
+    .main-carousel .owl-nav {
+        top: 86%;
+    }
+}
+
+@media (max-width: 587px) {
+    .headline h1 {
+        font-size: 35px;
+    }
+
+    .headline p { 
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 347px) {
+    .headline h1 {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,22 @@
+.main-carousel-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.main-carousel-theme .owl-nav [class*='owl-'] {
+    color: rgba(255, 255, 255, 0.4);;
+    font-size: 30px;
+    padding: 27px;
+    background: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    cursor: pointer;
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-carousel-theme .owl-nav [class*='owl-']:hover { 
+    color: #FFF;
+    text-decoration: none;
+}

@@ -1,0 +1,134 @@
+.recent-projects .container {
+    height: 466px;
+    background: #23323a;
+}
+
+.recent-projects .recent-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recent-projects .recent-text h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #c4d3de;
+    margin-top: 40px;
+    margin-bottom: 15px;     
+}
+
+.recent-projects .recent-text p {
+    font-size: 15px;
+    color: #658190;
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 26px;
+}
+
+.recent-projects .projects-content:hover .projects-title {
+    background: #2f424d;
+}
+
+.recent-projects .projects-content:hover .projects-title::before {
+    border-color: transparent transparent #2f424d transparent;
+}
+
+.recent-projects .projects-content:hover .hover-block {
+    opacity: 1;
+    z-index: 1;
+}
+
+.recent-projects .projects-content:hover img {
+    filter: blur(3px);
+}
+
+.recent-projects .hover-block {
+    position: absolute;
+    display: flex;
+    left: 30%;
+    top: 20%;
+    opacity: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.recent-projects .hover-block a {
+    margin: 10px;
+}
+
+.recent-projects .hover-block i {
+    font-size: 25px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 17px;
+}
+
+.image {
+    overflow: hidden;
+} 
+
+.recent-projects .projects-content img {
+    height: 202px;
+    transition: 0.5s;
+}
+
+.projects-title {
+    height: 97px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background: #23323a;
+    transition: 0.5s;
+}
+
+.projects-title::before {
+    content: '';
+    position: absolute;
+    top: 64.3%;
+    left: 5.5%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #23323a transparent;
+    transition: 0.5s;
+}
+
+.projects-title .text {
+    margin-left: 20px;
+}
+
+.projects-title .text h3 {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+.projects-title .text p {
+    font-size: 11.5px;
+    text-transform: uppercase;
+    line-height: 2.2em;
+    color: #97a4ad;
+}
+
+.projects-title .like {
+   display: flex;
+   margin-right: 20px;
+}
+
+.projects-title .like i{
+    color: #445b68;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.projects-title .like i:hover {
+    color: #d76b61;
+}
+
+.projects-title .like span {
+    color: #9ea9b0;
+    font-size: 13px;
+    padding-left: 5px;
+    align-self: center;
+}

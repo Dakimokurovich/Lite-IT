@@ -1,0 +1,44 @@
+@media (max-width: 1220px) {
+    .twit .container {
+        height: 150px;
+    }
+
+    .twit-theme .owl-nav {
+        left: 11%;
+        top: 120%;
+    }
+
+    .twit .content .owl-carousel , .twit-text p {
+        width: 320px;
+    }
+}
+
+@media (max-width: 510px) {
+    .twit .content .twitter-box {
+        width: 76px;
+        height: 75px;
+        margin-right: 25px;
+        position: relative;
+        top: -5px;
+    }
+
+    .twit-theme .owl-nav {
+        left: 7%;
+        top: 110%;
+    }
+
+    .twit .content .twitter-box::after {
+        border-width: 15px 15px 0 0;
+        top: 15px;
+        right: -15px;
+    }
+
+    .twit .content .twitter-box i {
+        font-size: 30px;
+    }
+
+    .twit .content .owl-carousel , .twit-text p {
+        width: 210px;
+        font-size: 13px;
+    }
+}

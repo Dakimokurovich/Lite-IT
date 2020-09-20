@@ -1,0 +1,59 @@
+.twit .container {
+    height: 120px;
+    background: #008fd5;
+    display: flex;
+    justify-content: center;
+}
+
+.twit .content {
+    display: flex;
+    height: 100%;
+    width: 1155px;
+    align-items:center;
+    justify-content: center;
+}
+
+.twit .content .twitter-box {
+    height: 120px;
+    width: 122px;
+    background: #1f9cda;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    position: relative;
+}
+
+.twit .content .twitter-box::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 19px 19px 0 0;
+    border-color:#1f9cda transparent transparent transparent;
+    top: 23px;
+    right: -19px;
+}
+
+.twit .content .twitter-box i {
+    font-size: 50px;
+    color: white;
+}
+
+.twit .content .owl-carousel{
+    width: 900px;
+}
+
+.twit .content .owl-carousel .twit-text p {
+    color: white;
+}
+
+.twit .content .owl-carousel .twit-text p span , .time span{
+    color: #bbdbef;
+}
+
+.twit .content .owl-carousel .twit-text .time span{
+    font-size: 13px;
+    line-height: 2;
+}
